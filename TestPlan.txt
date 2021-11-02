@@ -1,0 +1,46 @@
+
+VOSS Assessment Test Plan
+
+Introduction:
+
+- This document describes the plan to test Ultimate QA website for asessment purposes.
+
+Objectives: 
+
+- Parts of the website to be testesd are:
+	- Browsing to the page and verify Titke of the page
+	- Logging In 
+	- Browse to "Fill out Forms"
+	- Browse to "Fake Pricing Page"
+
+Scope:
+
+- The testing that is going to be perfomed is automation testing, using Selenium Java Framework.
+- Scripts will be created using TestNG.
+	- The automation tests wil launch the browser on Chrome and Firefox, take screenshort of the website landing page save it on Images folder of the project.
+	- Automaton tests will alos maximise the browser.
+	- The tests will also login using the automation link on landing page.
+	- To launch "Fill out Forms" tests will reload the page to go back to landing page and re-launch landing page.
+	- Test will fill and submit the forms
+	- To launch "Fake Pricing" tests will reload the page to go back to landing page and re-launch landing page.
+
+Environment:
+
+- Project created in Selenium java framework 
+- Project will use TestNG framework for unit testing
+- Using TestNG test scripts are generated test scripts
+- Using design patterns POM
+- Mavern build tool is used for dependancies
+	- Right click on the Maven projext and select Run As -> Maven Build (this will run scripts)
+
+
+Steps to Run the Project:
+
+1. Open the project from this Git repo link 
+
+
+
+
+
+
+	
